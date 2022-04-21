@@ -10,7 +10,7 @@ const {
 
 router.get('/allTasks', getAllTasks);
 router.post('/createTask', createNewTask);
-router.patch('/updateTask', changeTaskInfo);
+router.put('/updateTask', changeTaskInfo);
 router.delete('/deleteTask', deleteTask);
 
 module.exports = router;
